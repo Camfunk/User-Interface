@@ -23,6 +23,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -54,13 +56,145 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+	font-family: 'Bangers', cursive;
+	padding: 20px;
+	font-size: 6rem;
+	text-align: center;
+}
+
+h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+
+/* navigation and header */
+.container {
+	max-width: 800px;
+}
+
+a{
+	padding: 12px 0px;
+	margin: 30px;
+	text-decoration: none;
+	color: lightgray;
+	display: inline-block;
+	left: 10px;
+	font-size: 15px;
+}
+
+.logo{	
+	position: abosolute; 
+	left: 45rem;
+	top: -65px;
+	width: 200px;
+	height: 30px;
+}
+
+
+h1 {
+	margin: auto -40rem auto -69rem;
+	padding: 0rem;
+	font-size: 4rem;
+	position: relative;
+	top: 5rem;
+}
+
+.headimg {
+position: relative;
+right: -33rem;
+top: -12rem;
+}
+
+button {
+	margin: -20rem;
+	padding: .3rem;
+	width: 18%;
+	display: inline-block;
+	position: relative;
+	right: -420px;
+	top: 8rem;
+	border: 2px solid black;
+	border-radius: 3px;
+	background-color: white;
+
+}
+
+a, .logo  {
+	position: relative;
+	right: -20%;
+	
+}
+
+/*end navigation and header*/
+
+hr {
+	margin: 0;
+	width: 1000px
+}
+
+h2{
+	margin: 4rem;
+	font-size: 3rem;
+}
+
+.topgrah, p, h2 {
+	margin: 2rem auto; 
+	max-width: 25%; 
+	position: relative; 
+	right: 32%
+}
+
+.topgraph2 {
+	margin: 2rem auto;
+	max-width: 400%;
+	position: relative; 
+	left: 40rem; 
+	top: -15rem;
+}
+
+.middle-img {
+	margin: -2rem 0 10rem;
+	display: inline-block; 
+	position: absolute; 
+	top: 65rem;
+	left: 2rem;
+
+	
+}
+
+.botgraph {
+	position: relative; 
+	bottom: -5%;
+	left: 0%;
+}
+
+.botgraph2{
+position: relative; 
+left: 40%;
+bottom: 22%
+}
+
+.botgraph3 {
+	position: relative; 
+	left: 80%;
+	bottom: 49%;
+}
+
+.footernav{
+	position: relative;
+	top: -400px;
+	padding: 1rem;
+	
+}
+
+li{
+	text-decoration: none;	
+}
